@@ -1,0 +1,53 @@
+.Contact-Form-Page{
+    .heading-Sec{
+        h4{
+            color: #5C5D60;
+            font-family: "PT Sans";
+            font-size: 25px;
+            font-weight: 500;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            color: #222D6D;
+            font-family: 'Volkhov-Regular';
+            text-transform: uppercase;
+            position: relative;
+            margin-bottom: 1.8em;
+            width: 100%;
+            background: none;
+        }
+        h1:after{
+            content: "";
+            position: absolute;
+            background-image: url(/images/Line.png);
+            width: 375px;
+            height: 14px;
+            background-repeat: no-repeat;
+            bottom: -24px;
+            left: 0;
+            margin: auto;
+            right: 0;
+        }
+    }
+    .Form-Sec{
+        margin-bottom: 7em;
+        text-align: center;
+        input {
+            border: 1px solid #222D6D;
+            color: #222D6D;
+        }
+        input::placeholder{
+            color: #222D6D;
+        }
+        textarea{
+            border: 1px solid #222D6D;
+            color: #222D6D;
+        }
+        textarea::placeholder{
+            color: #222D6D;
+        }
+    }
+}

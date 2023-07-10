@@ -1,0 +1,25 @@
+.Banner-Col{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    h2{
+        font-size: 60px;
+        color: #222D6D;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+        font-family: 'Volkhov-Regular';
+    }
+    h2:after {
+        content: '';
+        position: absolute;
+        background-image: url('/images/Line.png');
+        width: 375px;
+        height: 14px;
+        background-repeat: no-repeat;
+        bottom: -40px;
+        left: 0;
+    }
+}

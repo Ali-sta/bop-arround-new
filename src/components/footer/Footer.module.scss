@@ -1,0 +1,106 @@
+
+.Footer-col{
+    background-image:url('/imges/Footer-Bg.jpg');
+    height: 350px;
+    display: flex;
+    align-items: center;
+    h1{
+    font-size: 24px;
+    color: #29B1ED;
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+
+    }
+    .Footer-Nav{
+        padding: 0px 3px 0px 90px;
+    }
+    
+}
+.Footer-Social-icon ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 1.9em;
+
+    li{
+        margin-bottom: 20px;
+    }
+    a{
+        font-size: 20px;
+        text-decoration: none;
+        font-family: $PT-Sans;
+        color: #5C5D60;
+    }
+    li:first-child svg{
+        color: #29B1ED;
+        font-size: 22px;
+         margin-right: 20px;
+    }
+    li:nth-child(2){
+        color :#020202;
+        display: flex;
+        a{
+            margin: 0px;
+        }
+        div{
+            border: 1px solid #020202;
+            border-radius: 30px;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 10px;
+            padding: 10px;
+        }
+        svg{
+            font-size: 15px;
+            margin-top: -3px;
+        }
+    }
+}
+.Footer-CopyRigth-Sec{
+    background-color: #FFF9EB;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.Footer-CopyRigth-Sec p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: 'Poppins-Light';
+    color: #5C5D60;
+    a{
+        color: #29B1ED;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+.Nav-Footer-Menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    padding-left: 0px;
+}
+.Nav-Footer-Menu li{
+    list-style: none !important;
+    margin: 12px 0px;
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #5C5D60;
+        font-family: 'PT Sans';
+    }
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+}

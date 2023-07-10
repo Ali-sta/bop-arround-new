@@ -1,0 +1,51 @@
+.Travel-Process-Steps{
+    margin-top: 6em;
+    img{
+        border-radius: 30px;
+        margin: 20px 0px;
+    }
+    h6{
+        font-size: 25px;
+        font-family: 'Poppins-Regular';
+        color: #5C5D60;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+    }
+    h2{
+        font-size: 50px;
+        font-family: 'Volkhov-Regular';
+        color: #222D6D;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+        margin-bottom: 1.2em;
+    }
+    h2:after{
+        content: "";
+        position: absolute;
+        background-image: url(/images/Line.png);
+        width: 375px;
+        height: 14px;
+        background-repeat: no-repeat;
+        bottom: -30px;
+        left: -10px;
+    }
+    h4{
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Poppins-Bold';
+        padding: 10px 0px;
+    }
+    p{
+        font-size: 16px;
+        color: #5C5D60;
+        font-family: 'Poppins-Light';
+    }
+}
+.Travel-Process-Steps:nth-child(odd) h4{
+    color: #8AC43C !important;
+}
+.Travel-Process-Steps:nth-child(even) h4{
+    color: #29B1ED !important;
+}
